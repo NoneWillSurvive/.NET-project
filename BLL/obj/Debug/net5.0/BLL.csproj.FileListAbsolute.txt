@@ -1,0 +1,17 @@
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\BLL.deps.json
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\BLL.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\ref\BLL.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\BLL.pdb
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\DataAccess.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\Domain.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\User\RiderProjects\DotNetKirill\BLL\bin\Debug\net5.0\Domain.pdb
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.csprojAssemblyReference.cache
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\ref\BLL.dll
+C:\Users\User\RiderProjects\DotNetKirill\BLL\obj\Debug\net5.0\BLL.pdb

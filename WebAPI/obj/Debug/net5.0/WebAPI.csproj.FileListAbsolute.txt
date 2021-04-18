@@ -1,0 +1,16 @@
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.exe
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.deps.json
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.json
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.dll
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\ref\WebAPI.dll
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\bin\Debug\net5.0\WebAPI.pdb
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.csprojAssemblyReference.cache
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.dll
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.pdb
+C:\Users\User\RiderProjects\DotNetKirill\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
