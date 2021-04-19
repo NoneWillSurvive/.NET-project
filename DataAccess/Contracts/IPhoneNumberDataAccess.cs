@@ -6,6 +6,6 @@ namespace DataAccess.Contracts
 {
     public interface IPhoneNumberDataAccess
     {
-        Task<PhoneNumber> GetByAsync(IPhoneNumberContainer departmentId);
+        Task<PhoneNumber> GetByAsync(IPhoneNumberContainer phoneNumberId);
     }
 }

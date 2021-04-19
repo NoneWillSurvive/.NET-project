@@ -2,12 +2,12 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/projectSettingsUpdater.xml
 /modules.xml
+/projectSettingsUpdater.xml
 /contentModel.xml
-/.idea..netProject.iml
+/.idea.DotNetKirill.iml
 # Datasource local storage ignored files
-/../../../../../../../../:\Users\Kirill\Desktop\.netProject\.idea\.idea..netProject.dir\.idea/dataSources/
+/../../../../../../../../:\Users\User\RiderProjects\DotNetKirill\.idea\.idea.DotNetKirill\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

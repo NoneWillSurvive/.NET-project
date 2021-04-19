@@ -22,26 +22,26 @@ namespace DataAccess.Implemetations
             this.Mapper = mapper;
         }
 
-        public async Task<Domain.Person> InsertAsync(PersonUpdateModel Person)
+        public async Task<Person> InsertAsync(PersonUpdateModel Person)
         {
             var result = await this.Context.AddAsync(this.Mapper.Map<Person>(Person));
 
             await this.Context.SaveChangesAsync();
 
-            return this.Mapper.Map<Domain.Person>(result.Entity);
+            return this.Mapper.Map<Person>(result.Entity);
         }
 
-        public async Task<IEnumerable<Domain.Person>> GetAsync()
+        public async Task<IEnumerable<Person>> GetAsync()
         {
-            return this.Mapper.Map<IEnumerable<Domain.Person>>(
+            return this.Mapper.Map<IEnumerable<Person>>(
                 await this.Context.Person.Include(x => x.PhoneNumber).ToListAsync());
         }
 
-        public async Task<Domain.Person> GetAsync(IPersonIdentity Person)
+        public async Task<Person> GetAsync(IPersonIdentity Person)
         {
             var result = await this.Get(Person);
 
-            return this.Mapper.Map<Domain.Person>(result);
+            return this.Mapper.Map<Person>(result);
         }
 
         private async Task<Person> Get(IPersonIdentity Person)
@@ -55,7 +55,7 @@ namespace DataAccess.Implemetations
                 .FirstOrDefaultAsync(x => x.Id == Person.Id);
         }
 
-        public async Task<Domain.Person> UpdateAsync(PersonUpdateModel Person)
+        public async Task<Person> UpdateAsync(PersonUpdateModel Person)
         {
             var existing = await this.Get(Person);
 
@@ -65,7 +65,7 @@ namespace DataAccess.Implemetations
 
             await this.Context.SaveChangesAsync();
 
-            return this.Mapper.Map<Domain.Person>(result);
+            return this.Mapper.Map<Person>(result);
         }
     }
 }

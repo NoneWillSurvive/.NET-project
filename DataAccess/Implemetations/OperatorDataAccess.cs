@@ -22,26 +22,26 @@ namespace DataAccess.Implemetations
             this.Mapper = mapper;
         }
 
-        public async Task<Domain.Operator> InsertAsync(OperatorUpdateModel Operator)
+        public async Task<Operator> InsertAsync(OperatorUpdateModel Operator)
         {
             var result = await this.Context.AddAsync(this.Mapper.Map<Operator>(Operator));
 
             await this.Context.SaveChangesAsync();
 
-            return this.Mapper.Map<Domain.Operator>(result.Entity);
+            return this.Mapper.Map<Operator>(result.Entity);
         }
 
-        public async Task<IEnumerable<Domain.Operator>> GetAsync()
+        public async Task<IEnumerable<Operator>> GetAsync()
         {
-            return this.Mapper.Map<IEnumerable<Domain.Operator>>(
+            return this.Mapper.Map<IEnumerable<Operator>>(
                 await this.Context.Operator.Include(x => x.PhoneNumber).ToListAsync());
         }
 
-        public async Task<Domain.Operator> GetAsync(IOperatorIdentity Operator)
+        public async Task<Operator> GetAsync(IOperatorIdentity Operator)
         {
             var result = await this.Get(Operator);
 
-            return this.Mapper.Map<Domain.Operator>(result);
+            return this.Mapper.Map<Operator>(result);
         }
 
         private async Task<Operator> Get(IOperatorIdentity Operator)
@@ -55,7 +55,7 @@ namespace DataAccess.Implemetations
                 .FirstOrDefaultAsync(x => x.Id == Operator.Id);
         }
 
-        public async Task<Domain.Operator> UpdateAsync(OperatorUpdateModel Operator)
+        public async Task<Operator> UpdateAsync(OperatorUpdateModel Operator)
         {
             var existing = await this.Get(Operator);
 
@@ -65,7 +65,7 @@ namespace DataAccess.Implemetations
 
             await this.Context.SaveChangesAsync();
 
-            return this.Mapper.Map<Domain.Operator>(result);
+            return this.Mapper.Map<Operator>(result);
         }
     }
 }
